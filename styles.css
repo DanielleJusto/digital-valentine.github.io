@@ -1,0 +1,78 @@
+/* General Styles */
+h1 {
+    font-family: "Delius", cursive;
+    text-align: center;
+}
+
+body {  
+  height: 100dvh;  
+  overflow: hidden; /* Hide overflow */  
+}   
+
+/* Style Images */
+
+.start-button{
+    margin-top:1%;
+    margin-left:37.5%;
+    margin-right:37.5%;
+    width: 25%;
+    height: 25%;
+    background-color: #FAE1EA;
+    border: none;
+    color: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.start-button .img-hover {
+    display: none; /* Hide the hover image by default */
+}
+
+.start-button:hover .img-default {
+    display: none; /* Hide the default image on hover */
+}
+
+.start-button:hover .img-hover {
+    display: inline-block; /* Show the hover image on hover */
+}
+
+.start-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.choice-button-container {
+    display: flex;            /* Turns on flexbox */
+    justify-content: center;  /* Centers buttons horizontally */
+    gap: 10px;               /* Adds space between buttons */
+}
+
+.choice-button {
+    flex: 1;                 /* Makes both buttons equal width */
+    padding: 10px;
+    border: none;
+    background-color: #F23F3F;
+}
+
+.choice-button:hover{
+    background-color: #7b9881;
+
+}
+
+.img-container {
+    /* width: 300px;
+    height: 200px; */
+    margin-left:30%;
+    margin-right:30%;
+    width: 40%;
+    /* overflow: hidden; */
+}
+
+/* Crop Image */
+.img-container img{
+    width: 100%;
+    /* Image size exceeds container width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
