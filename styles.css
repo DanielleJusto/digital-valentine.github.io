@@ -61,18 +61,13 @@ body {
 }
 
 .img-container {
-    /* width: 300px;
-    height: 200px; */
     margin-left:30%;
-    margin-right:30%;
     width: 40%;
-    /* overflow: hidden; */
+
 }
 
 /* Crop Image */
 .img-container img{
     width: 100%;
-    /* Image size exceeds container width */
     height: auto;
-    /* Maintain aspect ratio */
 }
